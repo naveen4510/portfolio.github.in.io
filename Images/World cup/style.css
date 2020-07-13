@@ -1,0 +1,660 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+	
+}
+.topnav {
+  overflow: hidden;
+  background-color: #FF1E50;
+  height: 70px;
+position: fixed;
+	width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:#FFFFFF;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color:#000000;
+  color:#fff;
+}
+.topnav .search-container {
+  float: right;
+}
+.search-container img
+{
+	height: 100px;
+	width: 100px;
+	 padding: 6px;
+  margin-top: -38px;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.banner
+{
+	background-image:url("images/maxresdefault.jpg");
+	height: 753px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.p p
+{
+    text-align: center;
+	margin-top: 0px;
+	font-size: 50px;
+	color:#FF1E50;
+	font-weight: bold;
+	padding: 300px;
+}
+.matches
+{
+	margin: 20px 60px;
+	padding: 0px 40px;
+}
+.column {
+  float: left;
+  width:30%;
+  padding: 0 10px;
+  height: 400px;
+ margin: 0px 20px;
+ border:1px solid #000000;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column h2
+{
+	text-align: center!important;
+}
+.column p
+{
+	text-align: center;
+	line-height: 22px;
+}
+.column img
+{
+	width: 200px;
+	height: 200px;
+	margin:0px 90px;
+}
+.columnv {
+  float: left;
+  width:70%;
+  padding: 0 10px;
+  height: 400px;
+ margin: 0px 20px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.rowv:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 310px;
+  float: left;
+  width:30%;
+  padding: 0 10px;
+  height: 225px;
+ margin: 0px 20px;
+ border:1px solid #000000;
+	margin-top: 70px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columns p
+{
+	font-size: 30px;
+	color: #DAFF00;
+}
+.columns h2
+{
+	color:#FFFFFF;
+}
+.columns img
+{
+	width: 180px;
+	height: 180px;
+	margin-left: 200px;
+	margin-top: -200px;
+	margin-bottom: 7px;
+}
+.matchess
+{
+	margin: 20px 60px;
+	padding: 0px 40px;
+}
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+	
+	
+}
+
+/* Remove extra left and right margins, due to padding */
+
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 h3
+{
+	color: #fff;
+}
+.column1 p
+{
+	color: #DAFF00;
+}
+.columnt {
+  float: left;
+  width: 12.5%;
+  padding: 0 10px;
+  margin: auto;
+	
+  
+}
+.rowt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnt img
+{
+	width: 100;
+	height: 100px;
+	
+}
+.columnt:hover
+{
+	transform: scale(1.1);
+}
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 0 20px;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cards {
+  padding: 16px 0;
+  text-align: center;
+margin: 60px 0;
+	
+}
+.card2 {
+  padding: 16px 0;
+  text-align: center;
+margin: 60px 0;
+	box-shadow: 5px 5px 5px grey;
+}
+.column2 h3
+{
+	color: white;
+}
+.column2 p
+{
+	color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column3 {
+  float: left;
+  width: 20%;
+  padding: 5px 20px;
+ margin: 0px 37px;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column3 img
+{
+	width: 200px;
+	height: 250px;
+	border-radius: 12px;
+}
+.commerical
+{
+	margin: 0 120px;
+}
+.columnc {
+  float: left;
+  width: 20%;
+  padding: 20px 50px;
+  height: 300px;
+margin: 0px 30px;
+	
+}
+
+/* Clear floats after the columns */
+.rowc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnc img
+{
+	width: 150px;
+	height: 100px;
+	
+}
+.footer
+{
+	background-color:#051735;
+	width: 100%;
+	height: 240px;
+}
+.columnf {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+/* Clear floats after the columns */
+.rowf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnf h3
+{
+	color: #fff;
+}
+.columnf p
+{
+	color: #fff;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnf {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.cardf {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+ box-shadow: 5px 5px 5px grey;
+  padding: 16px;
+  text-align: center;
+  background-color: #030542;
+margin: 60px 0;
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a {
+    float: none;
+    display: block;
+    text-align:center;
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+	font-size: 14px;
+  }
+.topnav {
+ 
+  height:220px;
+}
+	.banner
+{
+	height: 410px;
+}
+.banner img
+{
+	width: 100%;
+	height: 410px;
+}
+	.search-container img
+{
+	height: 100px;
+	width: 100px;
+	 padding: 6px;
+  margin-top: -25px;
+}
+	.banner p
+{
+    text-align: center;
+	margin-top: -180px;
+	font-size: 30px;
+	color: #FFf;
+}
+	.matches
+{
+	margin: 20px 60px;
+	padding: 0px 40px;
+}
+.column {
+  float: left;
+  width:100%;
+  padding: 0 5px;
+  height: 400px;
+ margin: 0px 0px;
+ border:1px solid #000000;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column h2
+{
+	text-align: center!important;
+}
+.column p
+{
+	text-align: center;
+	line-height: 22px;
+}
+.column img
+{
+	width: 200px;
+	height: 200px;
+	margin:0px 30px;
+}
+	.match-content h1
+	{
+		text-align: center!important;
+	}
+	.columnv {
+  float: left;
+  width:100%;
+  padding: 0 10px;
+  height: 400px;
+ margin: 0px 0px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.rowv:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	.columnv p
+	{
+		text-align: center;
+	}
+	.columns {
+  float: left;
+  width: 100%!important;
+  padding: 10px;
+  height: 310px;
+  float: left;
+  width:30%;
+  padding: 0 10px;
+  height: 225px;
+ margin: 0px 0px;
+ border:1px solid #000000;
+	margin-top: 70px;
+
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columns p
+{
+	font-size: 30px;
+	color: #DAFF00;
+}
+.columns h2
+{
+	color:#FFFFFF;
+	font-size: 15px;
+}
+.columns img
+{
+	width: 180px;
+	height: 180px;
+	margin-left: 100px;
+	margin-top: -140px;
+	margin-bottom: 7px;
+}
+.matchess
+{
+	margin: 20px 40px;
+	padding: 0px 40px;
+	}
+	.column1 {
+  float: left;
+  width: 100%!important;
+  padding: 0 10px;
+	
+}
+
+/* Remove extra left and right margins, due to padding */
+
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 h3
+{
+	color: #fff;
+}
+.column1 p
+{
+	color: #DAFF00;
+}
+	.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #030542;
+margin: 60px 0;
+}
+	.columnt {
+  float: left;
+  width: 12.5%;
+  padding: 0 5px;
+  margin: auto;
+  
+}
+.rowt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnt img
+{
+	width:100%;
+	height: 100px;
+}
+.columnt h3
+	{
+		font-size: 8px!important;
+		font-weight: bolder;
+	}
+	.columnt p
+	{
+		font-size: 8px!important;
+		font-weight: bolder;
+	}
+.column2 {
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cards {
+  padding: 0px 0;
+  text-align: center;
+margin: 60px 0;
+}
+.columnv iframe
+	{
+		width: 100%;
+		height: 300px;
+	}
+	.banner
+{
+	background-image:url("images/maxresdefault.jpg");
+	height: 680px;
+	width: 100%;
+	background-position:center!important;
+	background-attachment:scroll!important;
+	background-size:auto!important;
+}
+.p p
+{
+    text-align: center;
+	margin-top: 0px;
+	font-size: 20px;
+	color: #Fff;
+	font-weight: bold;
+	padding: 0;
+}
+	.column3 {
+  float: left;
+  width: 100%;
+  padding: 5px 20px;
+ margin: 0px 0px;
+}
+
+/* Clearfix (clear floats) */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column3 img
+{
+	width: 200px;
+	height: 250px;
+	border-radius: 12px;
+}
+	.commerical
+{
+	margin: 0 120px;
+}
+.columnc {
+  float: left;
+  width: 100%;
+  padding: 20px auto;
+  height: 300px;
+margin: 0px 0px;
+	
+}
+
+/* Clear floats after the columns */
+.rowc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnc img
+{
+	width: 150px;
+	height: 100px;
+	
+}
+	.commerical h1
+	{
+		text-align: center;
+	}
+	.footer
+{
+	background-color:#051735;
+	width: 100%;
+	height: 100%;
+}
+.columnf {
+  float: left;
+  width: 100%;
+  padding: 0 auto;
+}
+/* Clear floats after the columns */
+.rowf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnf h3
+{
+	color: #fff;
+}
+.columnf p
+{
+	color: #fff;
+}
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="main-container" id="home">
+<div class="navbar">
+<div class="logo">
+<a href="#">Daniel Wellington</a>
+</div>
+<div class="nav-items">
+<ul>
+<li><a href="#">WOMEN</a></li>
+<li><a href="#">MEN</a></li>	
+<li><a href="#">WATCHES</a></li>
+<li><a href="#">ACCESORIES</a></li>	
+<li><a href="#">BLOG</a></li>	
+</ul>	
+</div>
+</div>
+<div class="banner">
+<div class="banner-content">
+<h1>SHARE YOUR MOMENTS AT<br>
+<span>FIND YOUR IDEAL MATCH</span> #DWMOMENTS</h1><br>
+<p>Our life is summed up by moments. And in the end, we won’t remember our lives as a whole, but as a string of moments.</p>
+</div>	
+</div>
+	
+<div class="Moments" id="about">
+<h1 class="title">Moments</h1>
+<P>Our life is summed up by moments. And in the end, we won’t remember our lives as a whole, but as a string of moments. Some moments we regret passing us by, while others we carry with us for the rest of our lives. And the moments that challenge us the most are the ones that end up defining us. You can’t change moments passed, but you have the power to create new ones. And the best ones will turn into memories.</P>
+<div class="btn"><a href="#">Read more</a></div>
+</div>
+	
+<div class="women" id="women">
+<h1 class="title">WOMEN'S WATCHES</h1>
+<p>Our women’s watches have a smart design with interchangeable watch bands – making it a wristwatch unique for every occasion. It´s a watch that is as personal as your choice of strap, whether that is colourful NATO, elegant mesh or luxurious leather. Daniel Wellington is on a quest for perfection, one that starts with – and continues to focus on the </p>
+<div class="wimages">
+<div class="images-item">
+<img src="images/image2.jpg">
+</div>
+<div class="images-item">
+</div>
+<div class="images-item">
+</div>
+</div>
+</div>
+</div>
+	
+</body>
+</html>
